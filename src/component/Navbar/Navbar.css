@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,500&display=swap');
+.bodycon{
+    background: url(../image/rockimg.jpeg);
+    height: 500px;
+    background-repeat: no-repeat;
+   
+   
+}
+
+.navContainer{
+    display: flex;
+    margin-left: 100px;
+
+   
+}
+
+/* LOGO STYLE */
+.logotxt{
+color: #fff;
+margin-top: 26px;
+width: 134px;
+height: 30px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: -0.03em;
+}
+
+
+.logoimg{
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    border: dashed;
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 18px;
+    margin-right: 10px;
+}
+
+
+/* LINK STYLES */
+.navlinks{
+    margin-top: 20px;
+    margin-left: 20rem;
+}
+
+.items{
+    margin-right: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 400;
+    line-height: 21px;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 10px;
+    
+    
+}
+.items:hover{
+    background-color: white;
+    border: solid;
+    padding: 5px 10px;
+    color: blue;
+    border-radius: 5px;
+    border-style: none;
+}
+
+
+.itemsSigin{
+  margin-left: 15rem;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+    padding: 5px 10px;
+    background-color: white;
+    border: solid;
+    border-radius: 5px;
+    border-style: none;
+}
+.itemsSigin:hover{
+    background-color: rgb(221, 221, 221);
+    border: solid;
+    padding: 5px 10px;
+    color: rgb(58, 58, 137);
+    border-radius: 5px;
+    border-style: none;
+}
+
+.items:active{
+    font-weight: bold;
+   
+}
+.mycolotxt{
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+.mycolotxt2{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+.naviconcon{
+    margin-top: 20px;
+    display: none;
+   
+}
+.firstnavicon{
+    background-color: #fff;
+    height: 2px;
+    width: 40px;
+    margin: 10px;
+}
+.sndnavicon{
+    background-color: #fff;
+    height: 2px;
+    width: 30px;
+    margin: 10px 10px 10px 20px;
+    
+}
+.thirdnavicon{
+    background-color: #fff;
+    height: 2px;
+    width: 40px;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 834px) {
+    .bodycon{
+        height: 400px;
+        background-repeat: no-repeat;
+        
+    }
+    .navContainer{
+        display: flex;
+        margin-left: 30px;
+       
+    }
+    .navlinks{
+        margin-top: 25px;
+        margin-left: 80px;
+    }
+    .itemsSigin{
+        margin-left: 150px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+   .navContainer{
+    position: relative;
+   }
+
+    .navlinks{
+        display: grid;
+        grid-template-columns: auto, auto, auto;
+        background:url(../image/rockimg.jpeg);
+        filter: blur(0.5px);
+        padding:  40px,50px;
+        margin-top: 70px;
+        width: 92%;
+        right: 21px;
+        text-align: center;
+        position: absolute;
+        z-index: 1;
+        height: 450%;
+        border-radius: 10px;
+    }
+   
+
+    .items{
+        width: 100%;
+        text-align: center;
+        margin-right: 0px;
+        padding: 20px 0;  
+        color: #fff;
+    }
+    .items:hover{
+        width: 100%;
+        border-top: 1px solid rgba(255, 255, 255, 0.555);
+        text-align: center;
+        margin-right: 0px;
+        padding: 20px 0;
+        color: #fff; 
+    }
+
+    .itemsSigin{
+        margin-left: 1px;
+        display: none;
+    }
+
+    .naviconcon{
+    margin-left: 100px;
+    margin-top: 25px;
+    display: block;
+       
+        
+     
+       
+    }
+    .mycolotxt{
+        position: absolute;
+        width: 368px;
+        height: 33px;
+        top: 80px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 42px;
+        letter-spacing: -0.03em;
+}
+.mycolotxt2{
+    position: absolute;
+    width: 324px;
+    height: 44px;
+    left: 44px;
+    top: 170px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 155%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: rgba(244, 244, 244, 0.75);   
+}
+    
+}
